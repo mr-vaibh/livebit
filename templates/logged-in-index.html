@@ -24,11 +24,17 @@
 							<i class="fa fa-spinner fa-spin" id="loader" style="font-size:24px"></i>
 							<input type="search" name="search" id="user-input" placeholder="Search..." autocomplete="off" style="margin-top: 10px;">
 							<script type="text/javascript">
-								$(window).resize(function(){
+								function check_resoln() {
 									if ((window.screen.width * window.devicePixelRatio)<1020) {
-										$('#loader').hide();
 										$('#user-input').hide();
-								}});
+									}else{
+										$('#user-input').show();
+									}
+								}
+								check_resoln();
+								$(window).resize(function(){
+									check_resoln();
+									});
 							</script>
 
 						<button class="btn btn-default" type="button" title="Upload a post" id="upload-but"><i class="glyphicon glyphicon-upload"></i></button>

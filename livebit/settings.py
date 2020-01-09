@@ -79,7 +79,7 @@ DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
 		'NAME': 'livebit',
-		'USERNAME': 'mrvaibh',
+		'USER': 'mrvaibh',
 		'PASSWORD': 'vaibhav1928',
 		'HOST': 'db4free.net',
 		'PORT': '3306',

@@ -26,7 +26,7 @@ SECRET_KEY = 'ydg5*jgltz%=ycnj47pwef+as-4t^foh%38n+l5cwwpmjtcjx5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', 'livebit.herokuapp.com']
 
 
 # Application definition
@@ -82,6 +82,7 @@ DATABASES = {
 		'USERNAME': 'mrvaibh',
 		'PASSWORD': 'vaibhav1928',
 		'HOST': 'db4free.net',
+		'PORT': '3306',
 	}
 
 	# 'default': {

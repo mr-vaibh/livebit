@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'livebit.wsgi.application'
 DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'livebit',
-		'USER': 'mrvaibh',
-		'PASSWORD': 'vaibhav1928',
-		'HOST': 'db4free.net',
+		'NAME': '4hMz3CMSeZ',
+		'USER': '4hMz3CMSeZ',
+		'PASSWORD': 'ei4ks0r0OJ',
+		'HOST': 'remotemysql.com',
 		'PORT': '3306',
 	}
 

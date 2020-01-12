@@ -76,19 +76,28 @@ WSGI_APPLICATION = 'livebit.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-	'default': {
-		'ENGINE': 'django.db.backends.mysql',
-		'NAME': '4hMz3CMSeZ',
-		'USER': '4hMz3CMSeZ',
-		'PASSWORD': 'ei4ks0r0OJ',
-		'HOST': 'remotemysql.com',
-		'PORT': '3306',
-	}
+	# 'default': {
+	# 	'ENGINE': 'django.db.backends.mysql',
+	# 	'NAME': 'livebit',
+	# 	'USER': 'mrvaibh',
+	# 	'PASSWORD': 'vaibhav1928',
+	# 	'HOST': 'db4free.net',
+	# 	'PORT': '3306',
+	# }
 
 	# 'default': {
-	# 	'ENGINE': 'django.db.backends.sqlite3',
-	# 	'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+	# 	'ENGINE': 'django.db.backends.mysql',
+	# 	'NAME': '4hMz3CMSeZ',
+	# 	'USER': '4hMz3CMSeZ',
+	# 	'PASSWORD': 'ei4ks0r0OJ',
+	# 	'HOST': 'remotemysql.com',
+	# 	'PORT': '3306',
 	# }
+
+	'default': {
+		'ENGINE': 'django.db.backends.sqlite3',
+		'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+	}
 }
 
 
